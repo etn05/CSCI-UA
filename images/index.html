@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+</head>
+<title>
+    Bliss
+  </title>
+</html>
+    <title>Bliss</title>
+    <style>
+
+    @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 93px;
+            }
+          }
+
+          @keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+    .typing-container {
+      width: 93px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #ffffff;
+      animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+      font-size: 2.5em;
+      }
+
+      body {
+      background-image: url(bliss.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      }
+
+      img {
+        position: fixed; 
+        left: 50%;
+        bottom: 1px; 
+      }
+
+      h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        }
+    
+    </style>
+  </head>
+
+  <body>
+    <h1 class="typing-container">Bliss</h1>
+    <img src="splat-480.PNG" srcset="splat-960.PNG 960w" 
+    srcset="splat-1440.PNG 1440w" width="480" height="300" alt="emily faceplanting into the ground">
+  </body>
+</html>
