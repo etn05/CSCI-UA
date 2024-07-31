@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG</title>
+</head>
+
+
+<style>
+
+   a:hover {
+      opacity: 0.8;
+    }
+
+   a:active {
+    opacity: 100%;
+   }
+  </style>
+
+    
+<svg width="500" height="500">
+
+    <defs>
+      <linearGradient id="gradient1">
+        <stop offset="0%" stop-color="#b6e0df" />
+        <stop offset="100%" stop-color="#ffb0dd" />
+      </linearGradient>
+    </defs>
+  
+    <a href="https://i6.cims.nyu.edu/~etn6939/">
+      <g class="svg">
+        <rect x="15" y="90" width="170" height="20" fill="url(#gradient1)" />
+        <polygon points="175,70 200,100 175,130" fill="#ffb0dd" />
+      </g>
+    </a>
+ 
+    <a href="https://open.spotify.com/track/7o2AeQZzfCERsRmOM86EcB?si=36963f1908d84f0c">
+      <g class="svg">
+        <circle cx="100" cy="100" r="50" fill="#ff4d4a" />
+        <line x1="51" y1="100" x2="149" y2="100" stroke="red" stroke-width="20" />
+      </g>
+    </a>
+
+    <text x="125" y="104.5" font-family="sans-serif" font-size="12" fill="#ff4d4a" font-weight="bold">EN</text>
+  </svg>
+
+
+
+</html>
